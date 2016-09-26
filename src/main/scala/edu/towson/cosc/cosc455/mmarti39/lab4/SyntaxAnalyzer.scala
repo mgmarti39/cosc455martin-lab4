@@ -30,7 +30,6 @@ class SyntaxAnalyzer {
   // This method implements the BNF rule for a noun phrase <NP> ::= <A> <N>
   def NounPhrase() = {
     if(!errorFound) Article()
-    if(!errorFound) Adjective()
     if(!errorFound) Noun()
   }
 

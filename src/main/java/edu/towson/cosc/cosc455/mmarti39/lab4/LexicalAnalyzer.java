@@ -23,7 +23,7 @@ public class LexicalAnalyzer {
 	private char nextChar;
 	private int lexLength;
 	private int position;
-    private List<String> lexems = new ArrayList<>();
+    private List<String> lexems = new ArrayList<String>();
 
 		
 	// The main driver of this class. This method takes a "program", in this case a single line of text in
