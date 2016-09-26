@@ -23,7 +23,7 @@ public class LexicalAnalyzer {
 	private char nextChar;
 	private int lexLength;
 	private int position;
-    private List<String> lexems = new ArrayList<String>();
+    private List<String> lexems = new ArrayList<>();
 
 		
 	// The main driver of this class. This method takes a "program", in this case a single line of text in
@@ -68,6 +68,8 @@ public class LexicalAnalyzer {
         lexems.add("\n");lexems.add("teh"); lexems.add("a");
         lexems.add("dawg"); lexems.add("kat"); lexems.add("rat");
         lexems.add("ates"); lexems.add("lovez"); lexems.add("hatez");
+		lexems.add("fat"); lexems.add("hungry"); lexems.add("happy"); lexems.add("mean");
+		lexems.add("accidently"); lexems.add("quickly"); lexems.add("secretly");
     }
 
     private boolean lookup(String candidateToken){
