@@ -8,7 +8,7 @@ class SyntaxAnalyzer {
   val VERBS: List[String] = List("ates", "lovez", "hatez")
   val NOUNS: List[String] = List("kat", "dawg", "rat")
   val ADJECTIVES: List[String] = List("fat", "hungry", "happy", "mean")
-  val ADVERBS: List[String] = List("accidently", "quickly", "secretly")
+  val ADVERBS: List[String] = List( "quickly", "accidently","secretly")
 
 
   // Flag for errors and helper methods
